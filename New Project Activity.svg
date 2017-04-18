@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="494px" preserveAspectRatio="none" style="width:783px;height:494px;" version="1.1" viewBox="0 0 783 494" width="783px" zoomAndPan="magnify"><defs><filter height="300%" id="fs2d12n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="97" x="347.5" y="28.6855">New Project</text><polygon fill="#FBFB77" filter="url(#fs2d12n)" points="20,32.6406,20,75.3438,415,75.3438,415,42.6406,405,32.6406,20,32.6406" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#FBFB77" points="20,32.6406,20,75.3438,415,75.3438,415,57.9922,435,53.9922,415,49.9922,415,42.6406,405,32.6406,20,32.6406" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="405" x2="405" y1="32.6406" y2="42.6406"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="415" x2="405" y1="42.6406" y2="42.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="370" x="26" y="51.1357">New project details: Project Title, Project Alias,Company Name,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="312" x="26" y="67.4873">Dealer Code etc from "projectblog" table/entry in S360</text><ellipse cx="445" cy="53.9922" fill="#000000" filter="url(#fs2d12n)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fs2d12n)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="389" y="174.5234"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="399" y="196.9805">New project Alert</text><rect fill="#FEFECE" filter="url(#fs2d12n)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="172" x="359" y="293.3779"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="152" x="369" y="315.835">New Project entries in S360</text><rect fill="#FEFECE" filter="url(#fs2d12n)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="239" x="325.5" y="412.2324"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="219" x="335.5" y="434.6895">Add new Project in Production Snapshot</text><ellipse cx="445" cy="477.3262" fill="#FFFFFF" filter="url(#fs2d12n)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 2.5;" x1="438.8128" x2="451.1872" y1="471.139" y2="483.5134"/><line style="stroke: #000000; stroke-width: 2.5;" x1="451.1872" x2="438.8128" y1="471.139" y2="483.5134"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="445" x2="445" y1="63.9922" y2="174.5234"/><polygon fill="#A80036" points="441,164.5234,445,174.5234,449,164.5234,445,168.5234" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="333" x="449" y="97.6797">Input: {contract_file:"PSU_WoodySanderFord.pdf",Project_Title:"xxx",</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="324" x="449" y="111.5156">Project_Alias:"xxx",Company_Name:"xxx",Dealer_Code:"xxx",etc..}</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="155" x="449" y="125.3516">Output: "new project alert email"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="271" x="449" y="139.1875">Input Form: {contract_file:"PSU_WoodySanderFord.pdf"}</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="449" y="153.0234">Output Form: "None"</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="445" x2="445" y1="209.6172" y2="293.3779"/><polygon fill="#A80036" points="441,283.3779,445,293.3779,449,283.3779,445,287.3779" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="449" y="231.9531">Input: "New project alert email"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="222" x="449" y="245.7891">Output: "Creates and tags the Project in S360"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="449" y="259.625">Input Form: "None"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="449" y="273.4609">Output Form: "None"</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="445" x2="445" y1="328.4717" y2="412.2324"/><polygon fill="#A80036" points="441,402.2324,445,412.2324,449,402.2324,445,406.2324" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="321" x="449" y="350.8076">Input: "New Project aler mail", "S360 new project entry notification"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="171" x="449" y="364.6436">Output:"Production Snapshot Entry"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="449" y="378.4795">Input Form: "None"</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="449" y="392.3154">Output Form: "None"</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="445" x2="445" y1="447.3262" y2="467.3262"/><polygon fill="#A80036" points="441,457.3262,445,467.3262,449,457.3262,445,461.3262" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+title New Project
+start
+-> Input: {contract_file:"PSU_WoodySanderFord.pdf",Project_Title:"xxx", 
+Project_Alias:"xxx",Company_Name:"xxx",Dealer_Code:"xxx",etc..}
+Output: "new project alert email"
+Input Form: {contract_file:"PSU_WoodySanderFord.pdf"}
+Output Form: "None";
+note
+New project details: Project Title, Project Alias,Company Name, 
+Dealer Code etc from "projectblog" table/entry in S360
+end note
+:New project Alert;
+->Input: "New project alert email"
+Output: "Creates and tags the Project in S360"
+Input Form: "None"
+Output Form: "None";
+:New Project entries in S360;
+->Input: "New Project aler mail", "S360 new project entry notification"
+Output:"Production Snapshot Entry"
+Input Form: "None"
+Output Form: "None";
+:Add new Project in Production Snapshot;
+
+end
+@enduml
+
+PlantUML version 2017.10(Fri Apr 07 00:13:00 IST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_73-b02
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
