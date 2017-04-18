@@ -1,0 +1,49 @@
+@startuml
+title Audit Process
+start
+partition Qualified_ROs_Anotation
+:Open “2_Qualified ROs” downloaded file;
+:In MAGE Detail Processor Load Qualified Invoices;
+while (ROs available to Annotate?)
+    :Read the complaint and cause descriptions and verify that the repair is warranty like;
+    if(need to include some excluded parts as “Part of Repair.”?) then(yes)
+    :Add reason in MAGE;
+    else (no)
+        if(need need to exclude a part that would otherwise be included?) then(yes)
+            :Add reason in MAGE;
+        else (no)
+            if(need to apply a DISCOUNT to a particular part/group of parts?) then(yes)
+                :Input discount in MAGE and apply discount;
+            else (no)
+                :No change needed;
+            endif
+        endif
+    endif
+:update pdf with proper stamping;
+endwhile
+
+
+partition Non-Qualified_ROs_Anotation
+:Download MAGE Non-Qualifieds Build;
+:Take a review copy;
+while (ROs available to Annotate?)
+:Check “scenarioreason”, "partdescription," "finalreasoncode," and “jobparts” columns and uncheck part types that have no way of being included;
+:Include broken or part of a repair items, which Manufacturer may exclude;
+:Non-OEM parts will never be included (unless working with GM or Chrysler);
+:Make updates in "Reiview" file if any;
+endwhile
+:Open “2_Non Qualified ROs” Downloaded file;
+if (Is there any changes made in "Review" to update) then(yes)
+while(Changed ROs exists in "Review")
+:Update the grid in the MAGE Detail Processor;
+:Include any necessary stamps/highlights on the RO;
+:Transfer any included ROs from the “2_Non Qualified ROs” file to the “2_Qualified ROs”;
+endwhile
+else(no)
+endif
+
+:Uploaded the Annoted files to the FTP server for review ("2_Non Qualified ROs.pdf", "2_Qualified ROs.pdf", "MAGE Non-Qualifieds Build" to FTP);
+:Send out an e-mail to Lynda Hale, informing her that uploaded the Annoted files to the FTP server for review;
+
+end
+@enduml
