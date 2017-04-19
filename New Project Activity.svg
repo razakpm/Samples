@@ -8,7 +8,7 @@ Output: "new project alert email"
 Input Form: {contract_file:"PSU_WoodySanderFord.pdf"}
 Output Form: "None";
 note
-New project details: Project Title, Project Alias,Company Name, 
+New project details: Project Title, Project Alias,Company Name, for testin
 Dealer Code etc from "projectblog" table/entry in S360
 end note
 :New project Alert;
